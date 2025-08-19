@@ -1,0 +1,26 @@
+        .parent {
+            border: 3px solid orangered;
+            padding: 20px;              
+            margin-bottom: 30px;      
+            width: 400px;          
+        }
+
+        .child {
+            border: 3px solid orangered;
+            background-color: #ddd;   
+            padding: 20px;
+            text-align: center;
+        }
+
+        .parent2 {
+            border: 3px solid teal;    
+            padding: 20px;
+            width: 400px;;
+        }
+
+        .child2 {
+            border: 3px solid teal;
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+        }

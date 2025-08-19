@@ -1,0 +1,38 @@
+ ul {
+      width: 400px;
+      margin: 20px auto;
+      padding: 0;
+      list-style: none;
+    overflow: hidden;
+    }
+    ul li {
+      background: #eee;
+      padding: 10px;
+      margin-bottom: 20px;
+
+    }
+    ul ol,
+    ul ul {
+      background: #eee;
+      padding: 0px;
+      margin: 10px 0 0 20px;
+    }
+    ul li
+    ul li {
+      /* background: #eee;
+      margin-bottom: 5px;
+      padding: 5px;
+       */
+       background: #eee;
+       padding: 10px;
+       margin: 10px 0 0 10px;
+    }
+    .bgwhite {
+      background-color:white;
+    }
+     .bgblue {
+      background-color: white;
+     }
+     .bgblack {
+      background-color: white;
+     }

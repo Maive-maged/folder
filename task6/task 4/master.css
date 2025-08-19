@@ -1,0 +1,18 @@
+div{
+    font-family:"opensan", sans-serif  ;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: italic;
+}
+p{
+    font-family:"cario", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+h1{
+    font-family:"Jomhuria", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
