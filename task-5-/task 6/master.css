@@ -1,0 +1,8 @@
+div{
+background-color: rgb(126, 5, 5) ;
+padding : 10px ;
+display: inline-block ;
+width: 100px ;
+height: 50px ;
+overflow: hidden ;
+}

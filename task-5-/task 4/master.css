@@ -1,0 +1,36 @@
+body{
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.shape{
+  padding: 20px; 
+   border-width: 5px; 
+   border-style: solid;
+} 
+
+
+.shape-1 {
+  border-color: red;
+  border-style: solid;
+  outline-color: black;
+  outline-width: 2px;
+    outline-style: solid;
+}
+
+.shape-2 {
+  border-color: green blue ;
+  border-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+.shape-3 {
+  border-color: red green blue yellow;
+    border-style: dashed;
+    outline-color: black;
+    outline-width: 2px;
+    outline-style: solid;
+}

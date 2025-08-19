@@ -1,0 +1,21 @@
+
+div {
+  width: 500px;
+  background-position: center ;
+  padding: 20px;
+  background-color: #eee;
+}
+
+
+.assign-1-shape-1 {
+  background-color: blueviolet;
+}
+
+
+.assign-1-shape-2 {
+  background-color: rgba(138, 43, 226, 0.5); 
+}
+
+.assign-1-shape-3 {
+  background-color: rgba(138, 43, 226, 0.1);
+}
