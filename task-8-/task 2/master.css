@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  place-items: center; /* توسيط العنصر في الصفحة طولياً وعرضياً */
+  height: 100vh;
+  margin: 0;
+  background: #fff;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background: #eee;
+  border-radius: 50%;
+  position: relative;
+  display: grid;
+  place-items: center; /* لتوسيط النص داخل العنصر */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+div::before,
+div::after {
+  content: "";
+  position: absolute;
+  inset: -10px; /* يعمل مساحة إضافية حوالين العنصر */
+  border-radius: 50%;
+  border: 10px solid transparent;
+}
+
+div::before {
+  border-top-color: #03a9f4; /* أزرق */
+  border-bottom-color: #03a9f4;
+  border-left-color: #03a9f4;
+  z-index: -2;
+}
+
+div::after {
+  border-top-color: #e91e63; /* وردي */
+  border-bottom-color: #e91e63;
+    border-right-color: #e91e63;
+  inset: -20px; /* أكبر شوية من الـ before */
+  z-index: -1;
+}
