@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #fff;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top-color: #2196f3; 
+  position: relative;
+}
+
+div::before,
+div::after {
+  content: "";
+  position: absolute;
+  inset: -17px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+}
+
+div::before {
+  border-top-color: #ff9800; 
+}
+
+div::after {
+  inset: -30px;
+  border-top-color: #000; 
+}
+
+
+@keyframes spin {
+0%{
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+div:hover {
+  animation: spin 1s linear infinite;
+}
+div:hover::before {
+  animation: spin 1.5s linear infinite; 
+}
+
+div:hover::after {
+  animation: spin 2s linear infinite; 
+}
