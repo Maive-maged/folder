@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+
+nav {
+  background-color: #333;
+  color: #eee;
+  padding: 10px 20px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap: 40px; 
+  position: fixed; 
+  top: 0;            
+  left: 0;
+  right: 0;
+  z-index: 1000;   
+}
+
+
+nav button {
+  background-color: #333;
+  color: #eee;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+nav button:hover {
+  color: #ff9800;
+}
+
+header {
+  height: 100vh;
+  background-image: url("./img/1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+header p,
+header h4 {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+#about {
+  border-radius: 5px;
+  background-color: #f6f5f5;
+  padding: 15px;
+}
+
+#about h1 {
+  background-color: rgb(52, 51, 51);
+  color: #eee;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#about p {
+  text-align: center;
+  font-size: 19px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.tabs label {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background: #f1f1f1;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+input[type="radio"]:checked + label {
+  background: #555;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: #fafafa;
+}
+
+#eat:checked ~ .content #eat-content,
+#drink:checked ~ .content #drink-content {
+  display: block;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.item p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+#where {
+  border-radius: 5px;
+  padding: 15px;
+  background: #f6f5f5;
+}
+
+#where h1 {
+  background-color: rgb(52, 51, 51);
+  color: #eee;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#where p {
+  text-align: center;
+  font-size: 19px;
+}
+
+footer {
+  background-color: #333;
+  color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header {
+    height: 60vh;
+    padding: 10px;
+    align-items: flex-end;
+    text-align: center;
+  }
+
+  header p,
+  header h4 {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tabs label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  #about p,
+  #where p {
+    font-size: 16px;
+  }
+}
+
+
+    
