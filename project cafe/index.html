@@ -17,6 +17,7 @@
     </ul>
   </nav>
   <main>
+    <header>The cafe</header>
     <div class="Time">
      <time>Open from 6am to 5pm</time>
     </div>
@@ -53,8 +54,65 @@
     </address>
   </div>
 </section>
+<section class="menu">
+    <div class="container">
+      <header>
+        <h2>THE MENU</h2>
+      </header>
 
+      <div class="toggle-buttons">
+        <input type="radio" name="menu" id="eat" checked>
+        <label for="eat">Eat</label>
 
+        <input type="radio" name="menu" id="drink">
+        <label for="drink">Drink</label>
+      </div>
+
+      <div class="content">
+        <div id="eat-content" class="tab-content active">
+          <div class="item">
+            <h4>Bread Basket</h4>
+            <p>Fresh baked breads and muffins 5.50</p>
+          </div>
+          <div class="item">
+            <h4>Belgian Waffle</h4>
+            <p>Vanilla flavored batter with malted flour 7.50</p>
+          </div>
+          <div class="item">
+            <h4>Scrambled eggs</h4>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+          </div>
+          <div class="item">
+            <h4>Blueberry Pancakes</h4>
+            <p>With syrup, butter and lots of berries 8.50</p>
+          </div>
+        </div>
+
+        <div id="drink-content" class="tab-content">
+          <div class="item">
+            <h4>Coffee</h4>
+            <p>Freshly brewed coffee 3.00</p>
+          </div>
+          <div class="item">
+            <h4>Orange Juice</h4>
+            <p>Fresh squeezed orange juice 4.50</p>
+          </div>
+          <div class="item">
+            <h4>Milk</h4>
+            <p>Lowfat milk 4.00</p>
+          </div>
+          <div class="item">
+            <h4>Hot Chocolate</h4>
+            <p>Chocolate, milk, whipped cream 4.50</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img">
+      <img src="./img/3.jpeg" alt="photo of the cafe" style="width:650px;height:650px;">
+  </section>
+
+<section id="about" style="display:none;">
     <!-- <p>Open from 6am to 5pm</p>
     <h4>15 Adr street, 5015</h4>
   </header>
